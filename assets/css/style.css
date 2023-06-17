@@ -15,6 +15,12 @@ div.tabela{
     background-color: coral;
 }
 
+div#sobre{
+    background-color: rgb(50,96,26);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    font-size: small;
+}
+
 table{
     margin: auto;
 }
