@@ -1,0 +1,20 @@
+body{
+    background-color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+table, th, td, tr{
+    border-style: solid;
+    border-width: 1px;
+    border-collapse: collapse;
+    /*border-color: aquamarine;*/
+    background-color: aquamarine;
+}
+
+div.tabela{
+    text-align: center;
+    background-color: coral;
+}
+
+table{
+    margin: auto;
+}
