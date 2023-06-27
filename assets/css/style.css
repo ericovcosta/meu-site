@@ -1,7 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500&family=Roboto:ital,wght@0,300;0,400;1,400;1,500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Kablammo&display=swap');
+
+:root {
+    --color-1: #989495;
+    --color-2: #d4de8e;
+    --color-3: #98e3c7;
+    --color-4: #aba3e8;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.color1 {color: #26a2b4;}
+.color2 {color: #23ae7a;}
+.color3 {color: #9fd776;}
+.color4 {color: #090909;}
+.color5 {color: #e8e8c1;}
+
 body{
-    background-color: gray;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 12px;
+    background-color: var(--color-1);
+    font-family: 'Dancing Script', cursive;
+    font-size: 6 rem;
 }
 table, th, td, tr{
     border-style: solid;
@@ -18,8 +40,8 @@ div.tabela{
 
 div#sobre{
     background-color: rgb(50,96,26);
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
-    font-size: small;
+    font-family:'Kablammo', cursive ;
+    font-size: 46px;
 }
 
 h3{
@@ -30,4 +52,8 @@ h3{
 
 table{
     margin: auto;
+}
+
+a:visited{
+    color : var(--color-3);
 }

@@ -4,7 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Diversos CSSs</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/fontawesome/css/fontawesome.css">
     <style>
+
         a{
           text-decoration: none;  
           cursor: grab;
@@ -13,8 +16,12 @@
         body{
             font-size: 1.7rem;
         }
-        
+
         h1{
+            margin-left: 1px;
+            margin-top: 5px;
+            margin-bottom: 2px;
+            margin-right: 3px;
             text-align: center;
         }
 
@@ -24,22 +31,37 @@
             padding: 0;
             text-align: center;
         }
+        li:first-child{
+            background-color: orange;
+        }
+
+        a:hover, li:hover{
+            color: #fff;
+        }
 
         li{
             display: inline;
             padding: 0.10em;
         }
+        
     </style>
 </head>
-<body style="font-size: 1em; background-color: cadetblue; width: 500px; margin: auto;">
+<body class="color4" style="font-size: 1em; width: 500px; margin: auto;">
    <h1>Utilizando CSSs Diferentes</h1> 
    <ul style="list-style: none;">
-    <li><a href="#">Inline</a></li>
-    <li><a href="#">Incorporado</a></li>
+    <li><a href="#olha">Inline</a></li>
+    <li><a href="#aqui">Incorporado</a></li>
     <li><a href="#">Externo</a></li>
-    <li>SENAC</li>
+    <li><i class="fa-solid fa-bars"></i> SENAC</li>
     <li>Parnaíba</li>
     <li>São João</li>
    </ul>
+   <div style="height: 400px;" id="olha">
+    <p>olha</p>
+   </div>
+   <div id="sobre" style="height: 400px;" id="aqui">
+    <p>aqui</p>
+   </div>
+   <p>!</p>
 </body>
 </html>
